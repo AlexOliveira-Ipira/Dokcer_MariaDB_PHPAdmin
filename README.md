@@ -34,12 +34,12 @@
 
 <h1> Container MariaDB </h1>
     docker container run -p 127.0.0.1:3306:3306 \
-     -v "base_mariaDB:/dados" \
+    -v "base_mariaDB:/dados" \
     --name mariaDB -e MARIADB_ROOT_PASSWORD=senha123 \
-     --name mariaDB -d mariadb:10.6.4
+    --network NetMariaDB -d mariadb:10.6.4
 
-    <h2> Conectando o container MarinaDB a rede </h2>
-        docker network connect NetMariaDB  "id do container"
+<img src=./img/DockerMariaDB.png>
+
 
 <h1> Container phpmyadmin </h1>
     docker container run --name phpadmin -d 
