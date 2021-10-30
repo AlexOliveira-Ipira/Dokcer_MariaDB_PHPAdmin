@@ -20,6 +20,10 @@
     - Comando para cirar o volume
         docker volume create base_mariaDB
 
+<img src=./img/CriandoVolume.png>
+
+
+
 <h2> Criando rede </h2>
     - Comando para criar a rede
         docker network rm NetMariaDB
