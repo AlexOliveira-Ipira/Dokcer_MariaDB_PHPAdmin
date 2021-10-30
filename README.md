@@ -25,7 +25,10 @@
 
 <h2> Criando rede </h2>
     - Comando para criar a rede
-        docker network rm NetMariaDB
+        docker network create NetMariaDB
+
+<img src=./img/network.png>
+
 
 <h2> Criando os containers </h2>
 
