@@ -4,19 +4,18 @@
 
 
  <h1> As imagens utilizadas nesse projeto foram baixadas desses reposit[orios</h1>
-
-       <h2> Imagem mariaDB </h2>
+    <h2> Imagem mariaDB </h2>
             https://hub.docker.com/_/mariadb
         
 <img src=./img/mariadockerhub.png>
-
-        <h2> Imagem phpmyadmin </h2>
+    <h2> Imagem phpmyadmin </h2>
             https://hub.docker.com/_/phpmyadmin?tab=description
 
 <img src=./img/phpmyadmindockerhub.png>
 
 
 <h2> Criando Volume para guardar os dados do banco </h2>
+
     - Comando para cirar o volume
         docker volume create base_mariaDB
 
@@ -24,6 +23,7 @@
 
 
 <h2> Criando rede </h2>
+
     - Comando para criar a rede
         docker network create NetMariaDB
 
