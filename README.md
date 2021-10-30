@@ -20,8 +20,7 @@
     - Comando para cirar o volume
         docker volume create base_mariaDB
 
-<img src=./img/CriandoVolume.png>
-
+<img src=./img/volume.png>
 
 
 <h2> Criando rede </h2>
